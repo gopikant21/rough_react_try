@@ -1,0 +1,20 @@
+.event-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 2.5rem;
+    
+}
+
+@media screen and (max-width: 1250px){
+    .event-container{
+        grid-template-columns: 1fr ;
+    }
+}
+
+
+.about-event p{
+    padding: 0.8rem 3rem;
+}
+.about-event h3{
+    padding-top: 1rem;
+}

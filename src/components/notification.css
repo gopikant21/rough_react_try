@@ -1,0 +1,25 @@
+.container{
+    background-color: rgb(201, 195, 195);
+    max-width: 50vw;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    min-height: fit-content;
+    line-height: 2rem;
+    margin-top: 10vh;
+    padding: 3.5rem;
+    border-radius: 1rem;
+}
+.container p{
+    font-size: 1.25rem;
+    background-color: rgb(201, 195, 195);
+}
+.container h1{
+    background-color: rgb(201, 195, 195);
+    text-align: center;
+}
+@media screen and (max-width: 1050px){
+    .container{
+        max-width: 70vw;
+    }
+}

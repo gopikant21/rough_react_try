@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Navbar{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(27, 25, 59);
+    padding: 2rem;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 5rem;
+    font-size: 1.5rem;
+}
+
+
+@media  screen and (max-width: 1050px) {
+    ul{
+        display: none;
+    }
+}
